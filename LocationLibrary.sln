@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationLibrary", "LocationLibrary\LocationLibrary.csproj", "{7CC4DE7F-6F7D-4E08-A9F5-9CC5C329478A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationTest", "LocationTest\LocationTest.csproj", "{BFB43CDF-2994-4763-9B6F-B2B63157CF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CC4DE7F-6F7D-4E08-A9F5-9CC5C329478A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC4DE7F-6F7D-4E08-A9F5-9CC5C329478A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC4DE7F-6F7D-4E08-A9F5-9CC5C329478A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC4DE7F-6F7D-4E08-A9F5-9CC5C329478A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB43CDF-2994-4763-9B6F-B2B63157CF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB43CDF-2994-4763-9B6F-B2B63157CF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB43CDF-2994-4763-9B6F-B2B63157CF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB43CDF-2994-4763-9B6F-B2B63157CF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
