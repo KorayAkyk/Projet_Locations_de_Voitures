@@ -15,6 +15,7 @@ Cas d’utilisation :
 • Lorsque le client rend la voiture, la facture avec le prix final est générée
 
 Description des objets :
+
 Véhicule
 • Un véhicule est représenté par une immatriculation unique
 • Il possède une marque, un modèle et une couleur
@@ -27,7 +28,9 @@ Client
 • Il est important de pouvoir de posséder la date de naissance du client ainsi que la date d’obtention de son permis de conduire pour savoir quel sera le prix de l’assurance
 • Le numéro de permis du client est enregistré afin de pouvoir être fournis aux autorités si un problème devait survenir.
 
+
 Réservation
+
 • Une réservation est une association entre un client et un véhicule
 • Une réservation a toujours une date de début et une date de fin
 • Un client ne peut réserver qu’un seul véhicule à la fois
@@ -39,16 +42,20 @@ Réservation
 • Le prix d’une location est le suivant : prix de base + prix au km * nb de km
 
 Travail demandé
-1- En vous basant sur ces règles métiers, vous allez devoir créer les scénarios Gherkin correspondants, puis implémenter les tests et le code de production correspondant en respectant le cycle BDD.
+1- 
+En vous basant sur ces règles métiers, vous allez devoir créer les scénarios Gherkin correspondants, puis implémenter les tests et le code de production correspondant en respectant le cycle BDD.
 Pour simplifier l’implémentation, et car ce n’est pas le but premier du module, nous n’utiliserons pas de base de données.
 Par contre, nous ferons comme si notre librairie pouvait être branchée à une base de données.
 Il faudra donc simuler des données existantes (Clients, Voitures, Réservations).
 Cela signifie qu’il faudra implémenter un moyen pour fournir à votre librairie un jeu de données pour exécuter vos tests.
 Pour plus de lisibilité, vous pouvez organiser vos scenarios en utilisant plusieurs fichiers .feature.
-2- En vous basant sur le document fourni en annexe, créer un pipeline dans Azure Devops afin de compiler votre solution et lancer les tests et générer la Living Documentation. Je vous conseille de mettre en place cette
+
+2- 
+En vous basant sur le document fourni en annexe, créer un pipeline dans Azure Devops afin de compiler votre solution et lancer les tests et générer la Living Documentation. Je vous conseille de mettre en place cette
 intégration continue dès que vous avez créer votre premier scenario et créer votre repo Git
 
 Important :
+
 - Comme pour les TPs précédents, pour simplifier la mise en oeuvre nous travaillerons avec des projets de type libraires .Net Core sans affichage dans un premier temps.
 - Selon votre avancement, et votre aisance technique, vous pouvez ajouter en plus un projet console à votre solution qui utilisera votre librairie en conditions « réelles » : récupération des données utilisateurs, appels à votre librairie et affichage des résultats.
 
